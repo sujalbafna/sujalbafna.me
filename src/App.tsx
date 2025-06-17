@@ -833,57 +833,56 @@ function App() {
             </div>
 
             {/* Side by Side Ads */}
-            <div className="grid md:grid-cols-2 gap-8">
-              <div className="bg-white rounded-2xl border border-slate-200 p-6 shadow-lg">
-                <div className="flex items-center justify-between mb-4">
-                  <h4 className="text-lg font-bold text-slate-800">Display Ad</h4>
-                  <span className="bg-blue-100 text-blue-800 text-xs font-semibold px-2 py-1 rounded-full">
-                    300x250
-                  </span>
-                </div>
-                <div className="bg-gradient-to-br from-blue-100 to-blue-200 rounded-lg p-6 text-center border-2 border-dashed border-blue-300">
-                  <div className="text-blue-500">
-                    <DollarSign className="w-8 h-8 mx-auto mb-2" />
-                  </div>
-                  <p className="text-sm text-blue-700">Medium Rectangle Ad</p>
-                </div>
-              </div>
+           <div className="grid md:grid-cols-2 gap-8">
+  {/* Display Ad */}
+  <div className="bg-white rounded-2xl border border-slate-200 p-6 shadow-lg">
+    <div className="flex items-center justify-between mb-4">
+      <h4 className="text-lg font-bold text-slate-800">Display Ad</h4>
+      <span className="bg-blue-100 text-blue-800 text-xs font-semibold px-2 py-1 rounded-full">
+        300x250
+      </span>
+    </div>
+    <div className="flex justify-center items-center">
+      <ins className="adsbygoogle"
+           style={{ display: "inline-block", width: 300, height: 250 }}
+           data-ad-client="ca-pub-5894557428356473"
+           data-ad-slot="8435185292"></ins>
+    </div>
+  </div>
 
-              <div className="bg-white rounded-2xl border border-slate-200 p-6 shadow-lg">
-                <div className="flex items-center justify-between mb-4">
-                  <h4 className="text-lg font-bold text-slate-800">Square Ad</h4>
-                  <span className="bg-purple-100 text-purple-800 text-xs font-semibold px-2 py-1 rounded-full">
-                    250x250
-                  </span>
-                </div>
-                <div className="bg-gradient-to-br from-purple-100 to-purple-200 rounded-lg p-6 text-center border-2 border-dashed border-purple-300">
-                  <div className="text-purple-500">
-                    <DollarSign className="w-8 h-8 mx-auto mb-2" />
-                  </div>
-                  <p className="text-sm text-purple-700">Square Ad Unit</p>
-                </div>
-              </div>
-            </div>
+  {/* Square Ad */}
+  <div className="bg-white rounded-2xl border border-slate-200 p-6 shadow-lg">
+    <div className="flex items-center justify-between mb-4">
+      <h4 className="text-lg font-bold text-slate-800">Square Ad</h4>
+      <span className="bg-purple-100 text-purple-800 text-xs font-semibold px-2 py-1 rounded-full">
+        250x250
+      </span>
+    </div>
+    <div className="flex justify-center items-center">
+      <ins className="adsbygoogle"
+           style={{ display: "inline-block", width: 250, height: 250 }}
+           data-ad-client="ca-pub-5894557428356473"
+           data-ad-slot="2127144859"></ins>
+    </div>
+  </div>
+</div>
 
-            {/* Banner Ad */}
-            <div className="bg-white rounded-2xl border border-slate-200 p-6 shadow-lg">
-              <div className="flex items-center justify-between mb-4">
-                <h4 className="text-lg font-bold text-slate-800">Banner Advertisement</h4>
-                <span className="bg-orange-100 text-orange-800 text-xs font-semibold px-2 py-1 rounded-full">
-                  728x90
-                </span>
-              </div>
-              <div className="bg-gradient-to-r from-orange-100 to-yellow-100 rounded-lg p-8 text-center border-2 border-dashed border-orange-300">
-                <div className="flex items-center justify-center space-x-4">
-                  <DollarSign className="w-8 h-8 text-orange-500" />
-                  <div>
-                    <p className="text-lg font-semibold text-orange-700">Leaderboard Banner Ad</p>
-                    <p className="text-sm text-orange-600">High visibility placement</p>
-                  </div>
-                  <DollarSign className="w-8 h-8 text-orange-500" />
-                </div>
-              </div>
-            </div>
+{/* Banner Ad */}
+<div className="bg-white rounded-2xl border border-slate-200 p-6 shadow-lg">
+  <div className="flex items-center justify-between mb-4">
+    <h4 className="text-lg font-bold text-slate-800">Banner Advertisement</h4>
+    <span className="bg-orange-100 text-orange-800 text-xs font-semibold px-2 py-1 rounded-full">
+      728x90
+    </span>
+  </div>
+  <div className="flex justify-center items-center">
+    <ins className="adsbygoogle"
+         style={{ display: "inline-block", width: 728, height: 90 }}
+         data-ad-client="ca-pub-5894557428356473"
+         data-ad-slot="9814063185"></ins>
+  </div>
+</div>
+
 
             {/* Ad Performance Info */}
             <div className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-2xl p-8 text-white">
