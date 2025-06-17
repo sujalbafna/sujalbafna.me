@@ -826,7 +826,7 @@ function App() {
                     This is where your Google AdSense ads will appear once configured
                   </p>
                   <div className="text-xs text-gray-500 bg-gray-50 px-3 py-2 rounded-md inline-block">
-                    Ad Unit ID: ca-pub-XXXXXXXXXXXXXXXXX
+                    Ad Unit ID: ca-pub-5894557428356473
                   </div>
                 </div>
               </div>
