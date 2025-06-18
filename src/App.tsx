@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Download, FolderOpen, Mail, Code, Database, Cloud, Brain, ExternalLink, Phone, MessageCircle, Github, Linkedin, Globe, Server, Palette, BarChart3, Zap, Shield, Wrench, Award, Calendar, CheckCircle, Star, ArrowUp, Briefcase, MapPin, Clock, DollarSign } from 'lucide-react';
+import { Download, FolderOpen, Mail, Code, Database, Cloud, Brain, ExternalLink, Phone, MessageCircle, Github, Linkedin, Globe, Server, Palette, BarChart3, Zap, Shield, Wrench, Award, Calendar, CheckCircle, Star, ArrowUp, Briefcase, MapPin, Clock } from 'lucide-react';
 
 function App() {
   const [showScrollTop, setShowScrollTop] = useState(false);
@@ -301,7 +301,6 @@ function App() {
               <a href="#internships" className="text-slate-600 hover:text-blue-600 transition-colors">Experience</a>
               <a href="#certifications" className="text-slate-600 hover:text-blue-600 transition-colors">Certifications</a>
               <a href="#projects" className="text-slate-600 hover:text-blue-600 transition-colors">Projects</a>
-              <a href="#ads" className="text-slate-600 hover:text-blue-600 transition-colors">Ads</a>
               <a href="#contact" className="text-slate-600 hover:text-blue-600 transition-colors">Contact</a>
             </div>
           </div>
@@ -786,130 +785,6 @@ function App() {
         </div>
       </section>
 
-      {/* Ads Section */}
-      <section id="ads" className="py-20 px-6 bg-gradient-to-br from-slate-50 to-blue-50">
-        <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-slate-800 mb-4">Sponsored Content</h2>
-            <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto rounded-full"></div>
-            <p className="text-lg text-slate-600 mt-6 max-w-2xl mx-auto">
-              Supporting quality content through partnerships
-            </p>
-          </div>
-
-          <div className="space-y-12">
-            {/* Header Ad */}
-            <div className="bg-white rounded-2xl border border-slate-200 p-8 shadow-lg">
-              <div className="flex items-center justify-between mb-6">
-                <div className="flex items-center space-x-3">
-                  <div className="bg-gradient-to-r from-green-500 to-emerald-500 text-white p-3 rounded-xl">
-                    <DollarSign className="w-6 h-6" />
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-bold text-slate-800">Featured Advertisement</h3>
-                    <p className="text-slate-600">Premium placement</p>
-                  </div>
-                </div>
-                <span className="bg-green-100 text-green-800 text-xs font-semibold px-3 py-1 rounded-full">
-                  Sponsored
-                </span>
-              </div>
-              
-              {/* Google AdSense Ad Unit - Replace with your actual ad code */}
-              <div className="bg-gradient-to-br from-gray-100 to-gray-200 rounded-xl p-8 text-center border-2 border-dashed border-gray-300">
-                <div className="space-y-4">
-                  <div className="text-gray-500">
-                    <DollarSign className="w-12 h-12 mx-auto mb-4" />
-                  </div>
-                  <h4 className="text-lg font-semibold text-gray-700">Google AdSense Ad Space</h4>
-                  <p className="text-sm text-gray-600">
-                    This is where your Google AdSense ads will appear once configured
-                  </p>
-                  <div className="text-xs text-gray-500 bg-gray-50 px-3 py-2 rounded-md inline-block">
-                    Ad Unit ID: ca-pub-xxxxxxxxxxxxxx
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Side by Side Ads */}
-           <div className="grid md:grid-cols-2 gap-8">
- <div className="grid md:grid-cols-2 gap-8">
-  {/* Display Ad */}
-  <div className="bg-white rounded-2xl border border-slate-200 p-6 shadow-lg">
-    <div className="flex items-center justify-between mb-4">
-      <h4 className="text-lg font-bold text-slate-800">Display Ad</h4>
-      <span className="bg-blue-100 text-blue-800 text-xs font-semibold px-2 py-1 rounded-full">
-        300x250
-      </span>
-    </div>
-    <div className="flex justify-center items-center">
-      <ins className="adsbygoogle"
-           style={{ display: "inline-block", width: 300, height: 250 }}
-           data-ad-client="ca-pub-5209083177847240"
-           data-ad-slot="6369943514"></ins>
-    </div>
-  </div>
-
-  {/* Square Ad */}
-  <div className="bg-white rounded-2xl border border-slate-200 p-6 shadow-lg">
-    <div className="flex items-center justify-between mb-4">
-      <h4 className="text-lg font-bold text-slate-800">Square Ad</h4>
-      <span className="bg-purple-100 text-purple-800 text-xs font-semibold px-2 py-1 rounded-full">
-        250x250
-      </span>
-    </div>
-    <div className="flex justify-center items-center">
-      <ins className="adsbygoogle"
-           style={{ display: "inline-block", width: 250, height: 250 }}
-           data-ad-client="ca-pub-5209083177847240"
-           data-ad-slot="8524499415"></ins>
-    </div>
-  </div>
-</div>
-
-{/* Banner Ad */}
-<div className="bg-white rounded-2xl border border-slate-200 p-6 shadow-lg">
-  <div className="flex items-center justify-between mb-4">
-    <h4 className="text-lg font-bold text-slate-800">Banner Advertisement</h4>
-    <span className="bg-orange-100 text-orange-800 text-xs font-semibold px-2 py-1 rounded-full">
-      728x90
-    </span>
-  </div>
-  <div className="flex justify-center items-center">
-    <ins className="adsbygoogle"
-         style={{ display: "inline-block", width: 728, height: 90 }}
-         data-ad-client="ca-pub-5209083177847240"
-         data-ad-slot="5898336077"></ins>
-  </div>
-</div>
-}
-
-
-            {/* Ad Performance Info */}
-<section id="contact" className="py-20 px-6 bg-gradient-to-br from-slate-800 to-slate-900">
-  <div className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-2xl p-8 text-white">
-    <div className="text-center">
-      <h3 className="text-2xl font-bold mb-4">Support This Website</h3>
-      <p className="text-slate-300 mb-6 max-w-2xl mx-auto">
-        The ads you see help support the development and maintenance of this website. 
-        Thank you for your understanding and support!
-      </p>
-      <div className="flex items-center justify-center space-x-6 text-sm">
-        <div className="flex items-center space-x-2">
-          <CheckCircle className="w-4 h-4 text-green-400" />
-          <span>Ad-free experience available</span>
-        </div>
-        <div className="flex items-center space-x-2">
-          <Shield className="w-4 h-4 text-blue-400" />
-          <span>Safe & relevant ads</span>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
       {/* Contact Section */}
       <section id="contact" className="py-20 px-6 bg-gradient-to-br from-slate-800 to-slate-900">
         <div className="max-w-6xl mx-auto">
@@ -996,7 +871,6 @@ function App() {
         </div>
       </footer>
 
-        <div>
       {/* Scroll to Top Button */}
       {showScrollTop && (
         <button
