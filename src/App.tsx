@@ -1004,7 +1004,6 @@ function App() {
         >
           <ArrowUp className="w-5 h-5" />
         </button>
-      }
     </div>
   );
 }
