@@ -887,28 +887,28 @@ function App() {
 
 
             {/* Ad Performance Info */}
-            <div className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-2xl p-8 text-white">
-              <div className="text-center">
-                <h3 className="text-2xl font-bold mb-4">Support This Website</h3>
-                <p className="text-slate-300 mb-6 max-w-2xl mx-auto">
-                  The ads you see help support the development and maintenance of this website. 
-                  Thank you for your understanding and support!
-                </p>
-                <div className="flex items-center justify-center space-x-6 text-sm">
-                  <div className="flex items-center space-x-2">
-                    <CheckCircle className="w-4 h-4 text-green-400" />
-                    <span>Ad-free experience available</span>
-                  </div>
-                  <div className="flex items-center space-x-2">
-                    <Shield className="w-4 h-4 text-blue-400" />
-                    <span>Safe & relevant ads</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+<section id="contact" className="py-20 px-6 bg-gradient-to-br from-slate-800 to-slate-900">
+  <div className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-2xl p-8 text-white">
+    <div className="text-center">
+      <h3 className="text-2xl font-bold mb-4">Support This Website</h3>
+      <p className="text-slate-300 mb-6 max-w-2xl mx-auto">
+        The ads you see help support the development and maintenance of this website. 
+        Thank you for your understanding and support!
+      </p>
+      <div className="flex items-center justify-center space-x-6 text-sm">
+        <div className="flex items-center space-x-2">
+          <CheckCircle className="w-4 h-4 text-green-400" />
+          <span>Ad-free experience available</span>
         </div>
-      </section>
+        <div className="flex items-center space-x-2">
+          <Shield className="w-4 h-4 text-blue-400" />
+          <span>Safe & relevant ads</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
       {/* Contact Section */}
       <section id="contact" className="py-20 px-6 bg-gradient-to-br from-slate-800 to-slate-900">
