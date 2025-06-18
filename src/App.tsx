@@ -845,7 +845,7 @@ function App() {
     <div className="flex justify-center items-center">
       <ins className="adsbygoogle"
            style={{ display: "inline-block", width: 300, height: 250 }}
-           data-ad-client="ca-pub-5894557428356473"
+           data-ad-client="ca-pub-5209083177847240"
            data-ad-slot="8435185292"></ins>
     </div>
   </div>
