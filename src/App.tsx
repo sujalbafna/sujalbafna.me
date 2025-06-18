@@ -883,7 +883,7 @@ function App() {
          data-ad-slot="5898336077"></ins>
   </div>
 </div>
-
+}
 
 
             {/* Ad Performance Info */}
