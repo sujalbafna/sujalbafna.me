@@ -996,7 +996,8 @@ function App() {
         </div>
       </footer>
 
-       {/* Scroll to Top Button */}
+        <div>
+      {/* Scroll to Top Button */}
       {showScrollTop && (
         <button
           onClick={scrollToTop}
@@ -1004,7 +1005,9 @@ function App() {
         >
           <ArrowUp className="w-5 h-5" />
         </button>
-  
-
+      )}
+    </div>
+  );
+}
 
 export default App;
