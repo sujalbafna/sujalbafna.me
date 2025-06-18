@@ -834,6 +834,7 @@ function App() {
 
             {/* Side by Side Ads */}
            <div className="grid md:grid-cols-2 gap-8">
+ <div className="grid md:grid-cols-2 gap-8">
   {/* Display Ad */}
   <div className="bg-white rounded-2xl border border-slate-200 p-6 shadow-lg">
     <div className="flex items-center justify-between mb-4">
@@ -846,7 +847,7 @@ function App() {
       <ins className="adsbygoogle"
            style={{ display: "inline-block", width: 300, height: 250 }}
            data-ad-client="ca-pub-5209083177847240"
-           data-ad-slot="8435185292"></ins>
+           data-ad-slot="6369943514"></ins>
     </div>
   </div>
 
@@ -861,8 +862,8 @@ function App() {
     <div className="flex justify-center items-center">
       <ins className="adsbygoogle"
            style={{ display: "inline-block", width: 250, height: 250 }}
-           data-ad-client="ca-pub-5894557428356473"
-           data-ad-slot="2127144859"></ins>
+           data-ad-client="ca-pub-5209083177847240"
+           data-ad-slot="8524499415"></ins>
     </div>
   </div>
 </div>
@@ -878,10 +879,11 @@ function App() {
   <div className="flex justify-center items-center">
     <ins className="adsbygoogle"
          style={{ display: "inline-block", width: 728, height: 90 }}
-         data-ad-client="ca-pub-5894557428356473"
-         data-ad-slot="9814063185"></ins>
+         data-ad-client="ca-pub-5209083177847240"
+         data-ad-slot="5898336077"></ins>
   </div>
 </div>
+
 
 
             {/* Ad Performance Info */}
